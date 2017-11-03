@@ -30,4 +30,4 @@ function hypothesis_modifications() {
 		wp_enqueue_style( 'darken', $src3 );
 }
 
-add_action( 'wp_enqueue_scripts', 'hypothesis_modifications' );
+add_action( 'wp_enqueue_scripts', 'hypothesis_modifications', 99 );
